@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  width: 100px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+p {
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#color {
+  width: 700px;
+  height: auto;
+  margin-left: 20px;
+  background-color: white;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+}
+
+h1,
+h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
