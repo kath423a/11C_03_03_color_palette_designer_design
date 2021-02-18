@@ -3,7 +3,7 @@
 window.addEventListener("DOMContentLoaded", getInput);
 
 function getInput() {
-  color_selecter.addEventListener("input", function (event) {
+  color_selector.addEventListener("input", function (event) {
     let hexValue = colorTheBox(event);
     console.log(hexValue);
     showHEX(hexValue);
